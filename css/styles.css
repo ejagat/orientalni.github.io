@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    background: rgba(0, 0, 139, 0.7); /* Semi-transparent deep blue */
     padding: 20px;
     text-align: center;
 }
@@ -34,13 +34,13 @@ main {
 }
 
 section {
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    background: rgba(0, 0, 139, 0.8); /* Slightly darker blue */
     padding: 20px;
     border-radius: 8px;
 }
 
 footer {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    background: rgba(0, 0, 139, 0.7); /* Semi-transparent deep blue */
     padding: 10px;
     text-align: center;
 }
