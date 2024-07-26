@@ -3,12 +3,19 @@ body, h1, h2, p {
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     font-family: Arial, sans-serif;
     color: #fff;
     background: url('./images/building.jpg') no-repeat center center fixed;
     background-size: cover;
     line-height: 1.6;
+    flex: 1;
 }
 
 header {
@@ -22,6 +29,7 @@ header h1 {
 }
 
 main {
+    flex: 1; /* This makes sure the main section expands to fill available space */
     padding: 20px;
 }
 
@@ -35,7 +43,4 @@ footer {
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     padding: 10px;
     text-align: center;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
 }
